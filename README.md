@@ -36,6 +36,8 @@ Laravel Framework 8.83.8
 mysql  Ver 8.0.44
 
 ER図
+<img width="480" height="321" alt="mogitate" src="https://github.com/user-attachments/assets/52cb53b6-eee5-4800-84e6-eec3c605a6eb" />
+
 
 URL
 開発環境：http://localhost/
