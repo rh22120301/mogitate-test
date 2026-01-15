@@ -36,3 +36,7 @@ Laravel Framework 8.83.8
 mysql  Ver 8.0.44
 
 ER図
+
+URL
+開発環境：http://localhost/
+phpMyAdmin:：http://localhost:8080/
