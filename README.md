@@ -23,5 +23,5 @@
 - Laravel Framework 8.83.8
 
 ### URL
-開発環境：http://localhost/products
-phpMyAdmin:：http://localhost:8080/
+- 開発環境：http://localhost/products
+- phpMyAdmin:：http://localhost:8080/
