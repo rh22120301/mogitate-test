@@ -1,0 +1,120 @@
+.register-content{
+    max-width: 100%;
+    padding:40px 0 80px;
+    background:rgb(243, 240, 238);
+}
+.register__heading{
+    width:60%;
+    margin:5px auto;
+    padding:4px 10px 0;
+    color: #313131;
+}
+
+.form__group{
+    max-width:60%;
+    margin:0 auto;
+}
+.form__group-title{
+    display: flex;
+    max-height: 30px;
+    align-items: center;
+    margin-top: 12px;
+}
+.form__group-item{
+    margin-left:8px;;
+    font-size:16px;
+    color: #313131;
+}
+.form__group-require{
+    margin:0 10px;
+    padding:0 10px 0;
+    background:red;
+    border-radius: 2px;
+    font-size:10px;
+    color:rgb(255, 255, 255);
+}
+.form__group-input{
+    margin:0 auto;
+    width:98%;
+}
+.form__group-input input,
+.form__group-input textarea {
+    width:100%;
+    padding:8px;
+    margin:6px 0;
+    border: 1px solid rgb(231, 228, 225);
+    border-radius: 3px;
+}
+
+.form__group input[type="checkbox"] {
+    display: none;
+}
+.season-label{
+    margin-right: 10px;
+    color:#313131;
+}
+.custom-checkbox{
+    position: relative;
+    margin-left: 8px;
+    padding-left: 16px; 
+    cursor: pointer;
+}
+.custom-checkbox::before{
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    top: 5px; 
+    width: 16px; 
+    height: 16px; 
+    border: 2px solid #313131;
+    border-radius: 50%;
+}
+input[type="checkbox"]:checked + .custom-checkbox::before {
+    background: #313131; 
+    border-color: #313131; 
+}
+input[type="checkbox"]:checked + .custom-checkbox::after {
+    content: ""; 
+    position: absolute; 
+    left: 6px;
+    top: 7px; 
+    width: 3px; 
+    height: 9px; 
+    border-right: 2px solid #fff; 
+    border-bottom: 2px solid #fff; transform: rotate(45deg); 
+}
+
+
+.form__error{
+    margin: 0 14px;
+    color:red;
+    font-size: 12px;
+}
+
+.form__button{
+    display:flex;
+    justify-content: center;
+}
+.form__button-back{
+    display:inline-block;
+    text-decoration: none;
+    padding:10px 80px;
+    margin:30px 15px;
+    background:rgb(207, 207, 207);
+    color:#313131;
+    font-size:14px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.form__button-register{
+    padding:10px 80px;
+    margin:30px 15px;
+    background:rgb(255, 216, 62);
+    color:#313131;
+    font-size:14px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    cursor:pointer;
+}

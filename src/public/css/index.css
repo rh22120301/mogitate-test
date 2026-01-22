@@ -1,0 +1,168 @@
+.fruits-content{
+    max-width: 100%;
+    padding-bottom:20px;
+    background:rgb(243, 240, 238);
+}
+.fruits-top{
+    display: flex;
+    padding: 25px 0 0 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.fruits-heading{
+    margin: 0 20px;
+    font-size: 22px;
+    color: #313131;
+    font-weight: bold;
+}
+.add-button{
+    display: inline-block; 
+    padding: 8px 16px;
+    margin: 3px 20px;
+    align-items: center;
+    background-color: #ff9900;
+    color: #313131;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.container{
+    display:flex;
+}
+.search-content{
+    width: 16%;
+}
+
+.search-form__keyword{
+    margin-left: 10px;
+    padding: 15px;
+    align-items: center;
+}
+.search-form__item-input{
+    width:100%;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid rgb(231, 228, 225);
+    border-radius: 50px;
+}
+.search-form__button-submit{
+    width: 100%;
+    padding:6px 20px;
+    margin:10px auto;
+    background:rgb(255, 216, 62);
+    color:#313131;
+    font-size:14px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    cursor:pointer;
+}
+.search-form__sort{
+    padding: 0 10px;
+    margin-left: 10px;
+}
+.search-form__sort-title{
+    font-size: 16px;
+    color: #313131;
+    font-weight: bold;
+}
+.search-form__sort-option{
+    width: 100%;
+    margin: 5px;
+    padding: 6px 20px;
+    border: 1px solid rgb(231, 228, 225);
+    border-radius: 3px;
+}
+.sort-botton{
+    display: flex;
+    align-items: center;
+}
+.search-form__sort-button{
+    width: 90%;
+    margin: 5px;
+    padding: 4px;
+    display:inline-block;
+    text-decoration: none;
+    background:rgb(207, 207, 207);
+    color:#313131;
+    font-size:14px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.search-form__cancel{
+    text-decoration: none;
+    color: rgb(255, 127, 127);
+    padding: 8px 0 0 5px;
+}
+
+.fruits-card{
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.fruits-card__group{
+    display: block;
+    background: rgb(255, 255, 255);
+    max-width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    text-decoration: none;
+
+}
+.card-image img{
+    width: 100%; 
+    height: 250px; 
+    object-fit: cover; 
+    display: block;
+}
+.card-body{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+.card-body__title{
+    color:#313131;
+}
+.card-body__price{
+    color:#313131;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+.page-link {
+    padding: 4px 12px;
+    margin: 0 4px;
+    color: #313131;
+    background: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.page-link:hover {
+    color: #313131;
+    background: white;
+    border-radius: 30px;
+    border: none;
+}
+.page-item.active .page-link {
+    background: rgb(255, 216, 62);
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+.page-item.disabled .page-link {
+    color: #313131;
+    background: white;
+    border-radius: 30px;
+    border: none;
+}
