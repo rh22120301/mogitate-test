@@ -6,7 +6,7 @@
 3. docker-compose up -d
 
 ### Laravel環境構築
-1. cd src
+1. docker-compose exec php bash
 2. composer install
 3. cp .env.example .env
 4. php artisan key:generate
