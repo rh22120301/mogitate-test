@@ -8,7 +8,7 @@
 ### Laravel環境構築
 1. docker-compose exec php bash
 2. composer install
-3. cp .env.example .env
+3. 「.env.example」ファイルを 「.env」ファイルに命名を変更。または、新しく.envファイルを作成
 4. php artisan key:generate
 6. php artisan migrate
 7. php artisan db:seed
